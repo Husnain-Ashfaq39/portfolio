@@ -128,7 +128,7 @@ const educationInfo = {
       logo: require("./assets/images/fastlogo.png"),
       subHeader: "Bachelor of Software Engineering in Computer Science",
       duration: "September 2022 - september 2026",
-      desc: "Participated in the NASCON`24 Management, TEDxTALK and Speed Programming",
+      desc: "Participated in the NASCON`24 Management, TEDxTALK Management and Speed Programming",
 
     },
     
@@ -173,7 +173,7 @@ const workExperiences = {
       role: "Software Engineer Intern",
       company: "CodSoft",
       companylogo: require("./assets/images/codsoftlogo.jpeg"),
-      date: "Jan 2015 – Sep 2015",
+      date: "Aug 2023 – Nov 2023",
       desc: "CodSoft are IT services and IT consultancy that specializes in creating innovative solutions for businesses"
     }
   ]
