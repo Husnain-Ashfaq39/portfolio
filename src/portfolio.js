@@ -23,10 +23,10 @@ const greeting = {
   username: "Husnain",
   title: "Hi all, I'm Husnain",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 having an experience of building Web applications powered by AI with JavaScript / Reactjs / Nodejs / Nextjs and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1EeSzpK49leiYEmwaDt2PCdgrgmd_5k64/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1t6KN-OKcSGltUSx0XpTWLb7kW8SpQVLO/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -50,7 +50,7 @@ const skillsSection = {
   subTitle: " FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop highly interactive Front end / User Interfaces for your web  applications"
     ),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
@@ -87,12 +87,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "nextjs",
+      fontAwesomeClassname: "fab fa-nextjs"
     },
     {
       skillName: "sql-database",
@@ -113,7 +109,56 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
-    }
+    },
+    {
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-git"
+    },
+    {
+      skillName: "machine-learning",
+      fontAwesomeClassname: "fas fa-robot"
+    },
+    {
+      skillName: "chatbot-development",
+      fontAwesomeClassname: "fas fa-comments"
+    },
+    {
+      skillName: "natural-language-processing",
+      fontAwesomeClassname: "fas fa-language"
+    },
+    {
+      skillName: "data-visualization",
+      fontAwesomeClassname: "fas fa-chart-line"
+    },
+    {
+      skillName: "web-scraping",
+      fontAwesomeClassname: "fas fa-code"
+    },
+    {
+      skillName: "api-development",
+      fontAwesomeClassname: "fas fa-plug"
+    },
+   
+    {
+      skillName: "deep-learning",
+      fontAwesomeClassname: "fas fa-brain"
+    },
+    {
+      skillName: "cloud-computing",
+      fontAwesomeClassname: "fas fa-cloud"
+    },
+    {
+      skillName: "devops",
+      fontAwesomeClassname: "fas fa-tools"
+    },
+    {
+      skillName: "web-automation",
+      fontAwesomeClassname: "fas fa-robot"
+    },
+    {
+      skillName: "computer-vision",
+      fontAwesomeClassname: "fas fa-eye"
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -141,16 +186,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Full Stack Developement", //Insert stack or technology you have experience in
+      Stack: "Full Stack WEB Developement", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Mobile Application Development",
-      progressPercentage: "65%"
+      Stack: "WEB with AI (chatbot, voice assistant, LLM etc)",
+      progressPercentage: "85%"
     },
     {
-      Stack: "Cloud Integration",
-      progressPercentage: "70%"
+      Stack: "Cloud Integration (AWS, Azure, etc)",
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
