@@ -1,0 +1,133 @@
+@import "../../_globalColor";
+
+.meeting-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.meeting-header-text {
+  font-size: 56px;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0px;
+  font-family: "Google Sans Regular";
+  color: $titleColor;
+}
+
+.meeting-subtitle {
+  text-transform: uppercase;
+  margin: 0px;
+  margin-top: 15px;
+  font-size: 14px;
+  color: $subTitle;
+  line-height: 1.5;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.meeting-main-div {
+  display: flex;
+  justify-content: center;
+  margin: 0px auto;
+  padding: 20px;
+  max-width: 1200px;
+}
+
+.meeting-calendar-container {
+  width: 100%;
+  background: $lightBackground1;
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px -15px $lightBoxShadowDark;
+  padding: 30px;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    box-shadow: 0px 15px 35px -15px $lightBoxShadowDarker;
+    transform: translateY(-2px);
+  }
+}
+
+.meeting-info {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.meeting-point {
+  background: $buttonColor;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 25px;
+  font-size: 15px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    background: $buttonHover;
+    transform: translateY(-2px);
+  }
+}
+
+.meeting-calendar {
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: $lightBackground2;
+}
+
+// Dark mode styles
+.dark-mode {
+  .meeting-header-text {
+    color: $textColorDark;
+  }
+  
+  .meeting-calendar-container {
+    background: $darkBackground;
+    box-shadow: 0px 10px 30px -15px rgba(0, 0, 0, 0.7);
+    
+    &:hover {
+      box-shadow: 0px 15px 35px -15px rgba(0, 0, 0, 0.9);
+    }
+  }
+
+  .meeting-point {
+    background: $buttonHover;
+    
+    &:hover {
+      background: lighten($buttonHover, 10%);
+    }
+  }
+}
+
+// Media queries for responsiveness
+@media (max-width: 768px) {
+  .meeting-header-text {
+    font-size: 40px;
+  }
+
+  .meeting-calendar-container {
+    padding: 20px;
+  }
+
+  .meeting-point {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .meeting-header-text {
+    font-size: 32px;
+  }
+
+  .meeting-subtitle {
+    font-size: 12px;
+  }
+
+  .meeting-calendar-container {
+    padding: 15px;
+  }
+} 
