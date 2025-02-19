@@ -138,7 +138,6 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "api-development",
       fontAwesomeClassname: "fas fa-plug"
     },
-   
     {
       skillName: "deep-learning",
       fontAwesomeClassname: "fas fa-brain"
@@ -158,6 +157,14 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "computer-vision",
       fontAwesomeClassname: "fas fa-eye"
+    },
+    {
+      skillName: "socket",
+      fontAwesomeClassname: "fas fa-plug" // Assuming similar icon for socket
+    },
+    {
+      skillName: "webrtc",
+      fontAwesomeClassname: "fas fa-video" // Assuming a video icon for WebRTC
     },
   ],
   display: true // Set false to hide this section, defaults to true
